@@ -16,6 +16,8 @@ function popupHide() {
     popup_bg.style.display = 'none';
 }
 //입력창 선택 시 12로 출력
-//let user_birthday = document.querySelector('#user_birthday');
-//console.log(user_birthday);
-//function userBirthdayOutput(){};
+let user_birthday = document.querySelector('#user_birthday');
+console.log(user_birthday);
+function userBirthdayOutput(){
+    user_birthday.value='12';
+};

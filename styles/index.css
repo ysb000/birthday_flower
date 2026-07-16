@@ -84,12 +84,14 @@ main .birthday_result_popup {
 }
 main .birthday_result_popup * {letter-spacing:-0.02em;}
 main .birthday_result_popup .birthday_month {font-size:0.75em;}
-main .birthday_result_popup .flower_language{font-size:0.875em;}
-main .birthday_result_popup h2{
+main .birthday_result_popup .birthday_month .month {}
+main .birthday_result_popup .flower_language {font-size:0.875em;}
+main .birthday_result_popup .flower_language .msg {}
+main .birthday_result_popup .result{
     font-weight:600;
     line-height:1.5;
 }
-main .birthday_result_popup h2 em {font-weight:700;}
+main .birthday_result_popup .result .flower_type {font-weight:700;}
 main .popup_bg {
     background-color:rgba(0,0,0,0.25);
     width:100%; height:100%;
